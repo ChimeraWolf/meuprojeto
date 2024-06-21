@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gwendolyn', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+span {
+    font-size: 100px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.next-button {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 412px) {
+      .span {
+          font-size: 30px;
+          font-weight: bold;
+          align-items: center;
+      }
+
+      .central-container {
+        font-size: 10px;
+        font-weight: bold;
+        margin-top: 15px;
+        padding: 5px 15px;
+        cursor: pointer;
+      }
+
+}
